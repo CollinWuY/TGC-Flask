@@ -1,0 +1,16 @@
+{% extends 'layout.template.html' %}
+
+{% block content %}
+<form method = "POST">
+    <div class="mb-3">
+        <label class="form-label">Weight:</label>
+        <input type="text" class="form-control" name="weight"/>        
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Height:</label>
+        <input type="text" class="form-control" name="height"/>
+    </div>
+    <input type="submit"/>
+
+</form>
+{% endblock %}

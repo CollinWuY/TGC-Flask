@@ -1,0 +1,15 @@
+{% extends 'layout.template.html' %}
+
+{% block title %}Survey Results{% endblock %}
+
+{% block content%}
+<h1>Thank you for your participation!</h1>
+
+<p>You have entered:</p>
+<ul>
+    <li>Name: {{full_name}}</li>
+    <li>Gender: {{Gender}}</li>
+    <li>Symptoms: {{", ".join(symptoms)}}</li>
+</ul>
+
+{% endblock %}
